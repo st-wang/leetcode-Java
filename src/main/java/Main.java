@@ -31,7 +31,7 @@ public class Main {
 
         Set<String> stringSet = new HashSet<>();
         List<String> stringList = new ArrayList<>();
-        Map<String, String> stringStringMap = new HashMap<>();
+        //Map<String, String> stringStringMap = new HashMap<>();
 
         stringSet.add("1");
         Iterator iterable = stringSet.iterator();

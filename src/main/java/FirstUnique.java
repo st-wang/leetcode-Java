@@ -6,7 +6,7 @@ public class FirstUnique {
 
     // Find the first unique number in an Integer list
     public int findFirstUniqueNumber (List<Integer> numberList) {
-        LinkedHashMap<Integer, Integer> occurMap = new LinkedHashMap<>();
+        /*LinkedHashMap<Integer, Integer> occurMap = new LinkedHashMap<>();
 
         for (int number: numberList) {
             if (occurMap.containsKey(number)) {
@@ -18,6 +18,12 @@ public class FirstUnique {
         for (Map.Entry<Integer, Integer> entry: occurMap.entrySet()) {
             if (entry.getValue() == 1) {
                 return entry.getKey();
+            }
+        }*/
+
+        for (int n: numberList) {
+            if (numberList.indexOf(n) == numberList.lastIndexOf(n)) {
+                return n;
             }
         }
 

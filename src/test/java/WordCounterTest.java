@@ -11,7 +11,7 @@ public class WordCounterTest {
     @Test
     public void wordCounter() {
         List<String> testList = new ArrayList<>(Arrays.asList("app", "app", "lyn", "po", "app", "po"));
-        HashMap<String, Integer> resultMap = testInstance.wordCounter(testList);
+        Map<String, Integer> resultMap = testInstance.wordCounter(testList);
 
         //Map<String, Integer> map = Map.of("app", 3, "lyn", 1);
 
