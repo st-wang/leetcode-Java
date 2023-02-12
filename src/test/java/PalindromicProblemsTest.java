@@ -3,14 +3,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
 
 public class PalindromicProblemsTest {
-    private PalindromicProblems testInstance = new PalindromicProblems();
+    private final PalindromicProblems testInstance = new PalindromicProblems();
 
     @Test
     public void testPalindromicPermutation_1() {
         String a = "abc";
         String b = "cba";
 
-        assertThat(testInstance.palindromicPermutation(a, b)).isTrue();
+        assertThat(testInstance.isPalindromicPermutation(a, b)).isTrue();
     }
 
     @Test
@@ -18,7 +18,7 @@ public class PalindromicProblemsTest {
         String a = "abc";
         String b = "cab";
 
-        assertThat(testInstance.palindromicPermutation(a, b)).isFalse();
+        assertThat(testInstance.isPalindromicPermutation(a, b)).isFalse();
     }
 
     @Test
@@ -26,14 +26,14 @@ public class PalindromicProblemsTest {
         String a = "Abc ad";
         String b = "da cab";
 
-        assertThat(testInstance.palindromicPermutation(a, b)).isFalse();
+        assertThat(testInstance.isPalindromicPermutation(a, b)).isFalse();
     }
 
     @Test
     public void testPalindromicPermutation_4() {
         String a = "Taco Cat";
 
-        assertThat(testInstance.palindromicPermutation(a)).isTrue();
+        assertThat(testInstance.isPalindromicString(a)).isTrue();
     }
 
     @Test
@@ -80,6 +80,13 @@ public class PalindromicProblemsTest {
 
     @Test
     public void longestPalindrome_4() {
+        String s = "AAAAAccbbbddeee"; // "cdbeAAAAAebdc"
+
+        assertThat(testInstance.longestPalindrome(s)).isEqualTo(13);
+    }
+
+    @Test
+    public void longestPalindrome_5() {
         String s = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"; // "cdAAAAAdc"
 
         assertThat(testInstance.longestPalindrome(s)).isEqualTo(983);

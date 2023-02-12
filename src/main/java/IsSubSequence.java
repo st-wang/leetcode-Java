@@ -1,22 +1,30 @@
-/*
- s = "abc", t = "ahbgdc"
- Return true.
-*/
-public class IsSubSequence {
-    public boolean isSubsequence (String s, String t) {
-        int lengthT = t.length();
-        int lengthS = s.length();
 
-        if (lengthS > lengthT) {
+public class IsSubSequence {
+    /*
+        s = "abc",
+        t = "ahbgdc",
+        Return true.
+    */
+
+    public boolean isSubsequence(String sub, String string) { // O(m * n)
+        int lengthString = string.length();
+        int lengthSub = sub.length();
+
+        if (lengthSub > lengthString || lengthSub == 0) {
             return false;
         }
 
-        String charsInT = "";
+        int j = 0;
+        int i = 0;
 
-        for (int i = 0; i < lengthT; i++) {
-            charsInT = charsInT + String.valueOf(t.charAt(i) - 'a');
+        while (j < lengthSub && i < lengthString) {
+            if (sub.charAt(j) == string.charAt(i)) {
+                j++;
+            }
+            i++;
         }
-        return false;
+
+        return j == lengthSub;
     }
 
 }

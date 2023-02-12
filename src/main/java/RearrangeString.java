@@ -4,25 +4,25 @@ import java.util.TreeMap;
 
 public class RearrangeString {
 
-    //Given a string, rearrange it in decreasing order by the characters frequency
-    //and in lexicographical order if their frequency is equal
+    // Given a string, rearrange it in decreasing order by the characters frequency
+    // and in lexicographical order if their frequency is equal
     public String rearrangeAString (String s) {
-        HashMap<Character, Integer> occuranceMap = new HashMap<>();
+        HashMap<Character, Integer> occurrenceMap = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
             char currentChar = s.charAt(i);
 
-            if (occuranceMap.containsKey(currentChar)) {
-                int occurance = occuranceMap.get(currentChar);
-                occuranceMap.replace(currentChar, occurance, occurance + 1);
+            if (occurrenceMap.containsKey(currentChar)) {
+                int occurrence = occurrenceMap.get(currentChar);
+                occurrenceMap.put(currentChar, occurrence + 1);
             }
 
-            occuranceMap.putIfAbsent(currentChar, 1);
+            occurrenceMap.putIfAbsent(currentChar, 1);
         }
 
         TreeMap<Integer, String> treeMap = new TreeMap<>();
 
-        for (HashMap.Entry<Character, Integer> entry: occuranceMap.entrySet()) {
+        for (HashMap.Entry<Character, Integer> entry: occurrenceMap.entrySet()) {
             int nextTreeMapKey = entry.getValue();
 
             if (treeMap.containsKey(nextTreeMapKey)) {

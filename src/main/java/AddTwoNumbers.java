@@ -9,9 +9,10 @@ public class AddTwoNumbers {
     }
 
     // Add two numbers saved in LinkedLists:
-    // ex: list1 = [1, 3, 4]
-    //     list2 = [2, 7, 1]
-    //     result = [4, 0, 5]
+    // ex: list1 = [1, 3, 4]        [1, 2, 5]
+    //     list2 = [2, 7, 1]        [2, 6]
+    //     result = [3, 0, 6]       [1, 4, 1, 1]
+
     ListNode addTwoNumbers(ListNode l1, ListNode l2){
         int sizeList1 = getSize(l1);
         int sizeList2 = getSize(l2);

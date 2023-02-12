@@ -5,14 +5,14 @@ import java.util.Queue;
 public class FindAdjacentWords {
 
     // Given a string and a list of words (unique words),
-    // print occurences where all the words appear consecutively in the string.
+    // print occurrences where all the words appear consecutively in the string.
     // (the order does not matter, but need to be all from the list and having no other words between them).
     // Example:
-    //INPUT:
-    //string: "This is a test is other a"
-    //list: ["is", "a", "test"]
-    //OUTPUT:
-    //2
+    //      INPUT:
+    //          string: "This is a test is other a"
+    //          list: ["is", "a", "test"]
+    //      OUTPUT:
+    //          2
     int getAdjacentWordsFrequency (ArrayList<String> string, ArrayList<String> words) {
         ArrayList<ArrayList<String>> wordsPermutationList = wordPermutation(words);
 

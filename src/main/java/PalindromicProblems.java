@@ -3,7 +3,9 @@ import java.util.Map;
 
 public class PalindromicProblems {
 
-    boolean palindromicPermutation(String a, String b) {
+    // Palindromic strings => abc - cba
+    // Case ignored
+    boolean isPalindromicPermutation(String a, String b) {
         if (a.equals("") && b.equals("")) {
             return true;
         }
@@ -25,7 +27,10 @@ public class PalindromicProblems {
         return true;
     }
 
-    boolean palindromicPermutation(String a) {
+    // Palindromic string => abb a
+    // Blanks ignored
+    // Case ignored
+    boolean isPalindromicString(String a) {
         if (a.equals("")) {
             return true;
         }
@@ -43,6 +48,9 @@ public class PalindromicProblems {
         return true;
     }
 
+    // For aab,
+    // Substrings are a, a, b, aa, ab, ab
+    // Among which the palindromic ones are a, a, b, aa
     public int palindromicSubstrings(String inputString) {
         if (inputString == null) {
             return 0;
@@ -59,7 +67,7 @@ public class PalindromicProblems {
             for (int i = j + 1; i < inputStringLength; i++) {
                 currentSubstring = inputString.substring(j, i + 1);
 
-                if (palindromicPermutation(currentSubstring)) {
+                if (isPalindromicString(currentSubstring)) {
                     substringCount++;
                 }
             }
@@ -98,11 +106,11 @@ public class PalindromicProblems {
     public int longestPalindrome(String s) {
         Map<Character, Integer> frequencyMap = new HashMap<>();
 
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) { // build letter frequency map
             char currentChar = s.charAt(i);
             if (frequencyMap.containsKey(currentChar)) {
                 int frequency = frequencyMap.get(currentChar);
-                frequencyMap.replace(currentChar, frequency, frequency + 1);
+                frequencyMap.put(currentChar, frequency + 1);
             } else {
                 frequencyMap.put(currentChar, 1);
             }
@@ -112,13 +120,13 @@ public class PalindromicProblems {
         int longestPalindrome = 0;
 
         for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
-            int entryValue = entry.getValue();
+            int freq = entry.getValue();
 
-            if (entryValue % 2 != 0) {
+            if (freq % 2 != 0) {
                 hasAnOddCharacter = true;
-                longestPalindrome += entryValue - 1;
+                longestPalindrome += freq - 1;
             } else {
-                longestPalindrome += entryValue;
+                longestPalindrome += freq;
             }
         }
 
@@ -130,15 +138,13 @@ public class PalindromicProblems {
     }
 
     /*Find the smallest prime palindrome greater than or equal to N.
-      Example 1:
+      Examples:
       Input: 6
       Output: 7
 
-      Example 2:
       Input: 8
       Output: 11
 
-      Example 3:
       Input: 13
       Output: 101
 
@@ -158,14 +164,14 @@ public class PalindromicProblems {
     }
 
     public boolean isANumberPalindrome(int number) {
-        String numberString = String.valueOf(number);
+//        String numberString = String.valueOf(number);
+//
+//        for (int i = 0; i < numberString.length(); i++) {
+//            if (numberString.charAt(i) != numberString.charAt(numberString.length() - i - 1)) {
+//                return false;
+//            }
+//        }
 
-        for (int i = 0; i < numberString.length(); i++) {
-            if (numberString.charAt(i) != numberString.charAt(numberString.length() - i - 1)) {
-                return false;
-            }
-        }
-
-        return true;
+        return isPalindromicString(String.valueOf(number));
     }
 }

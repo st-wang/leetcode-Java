@@ -21,18 +21,27 @@ public class MergeTwoListsTest {
         assertThat(test.mergeTwoSortedLists(list1, list2)).isEqualTo(expected);
 
         // TEST
-        LinkedList<Integer> linkedList1 = new LinkedList<>(asList(1, 5, 6));
+//        LinkedList<Integer> linkedList1 = new LinkedList<>(asList(1, 5, 6));
+//
+//        LinkedList<Integer> linkedList2 = new LinkedList<>();
+//        linkedList2.add(1);
+//        linkedList2.add(5);
+//        linkedList2.offer(6);
+//
+//        LinkedList<Integer> linkedList3 = new LinkedList<>();
+//        linkedList3 = linkedList2;
+//        linkedList3.offerLast(6);
+//
+//        assertThat(linkedList1).isEqualTo(linkedList2);
+//        assertThat(linkedList1).isEqualTo(linkedList3);
+    }
 
-        LinkedList<Integer> linkedList2 = new LinkedList<>();
-        linkedList2.add(1);
-        linkedList2.add(5);
-        linkedList2.offer(6);
+    @Test
+    public void mergeTwoSortedLists2() {
+        List<Integer> list1 = asList(2, 6, 7);
+        List<Integer> list2 = asList(1, 4, 8, 9, 10);
+        List<Integer> expected = asList(1, 2, 4, 6, 7, 8, 9, 10);
 
-        LinkedList<Integer> linkedList3 = new LinkedList<>();
-        linkedList3 = linkedList2;
-        linkedList3.offerLast(6);
-
-        assertThat(linkedList1).isEqualTo(linkedList2);
-        assertThat(linkedList1).isEqualTo(linkedList3);
+        assertThat(test.mergeTwoSortedLists(list1, list2)).isEqualTo(expected);
     }
 }

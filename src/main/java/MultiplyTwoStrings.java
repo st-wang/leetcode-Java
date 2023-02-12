@@ -11,7 +11,7 @@ public class MultiplyTwoStrings {
         int i;
 
         for (i = length - 1; i >= 0; i--) {
-            String currentNumberCharString = String.valueOf((smallerString.charAt(i) - '0'));
+            String currentNumberCharString = String.valueOf((smallerString.charAt(i)));
             BigInteger currentNumberCharBigInteger = new BigInteger(currentNumberCharString);
             BigInteger currentMultiplyBigInteger =
                     BigDecimal.valueOf(Math.pow(10, length - i - 1)).toBigInteger().multiply(currentNumberCharBigInteger);

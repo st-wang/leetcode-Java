@@ -8,26 +8,21 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class FirstUniqueTest {
 
-    private FirstUnique testInstance = new FirstUnique();
+    private final FirstUnique testInstance = new FirstUnique();
 
     @Test
     public void findFirstUniqueNumberTest() {
-        List<Integer> list = new ArrayList<>(asList(2, 5, 6, 2, 1, 6));
+        List<Integer> list = new ArrayList<>(asList(2, 7, 1, 6, 2, 5, 6));
 
-        assertThat(testInstance.findFirstUniqueNumber(list)).isEqualTo(5);
+        assertThat(testInstance.findFirstUniqueNumber(list)).isEqualTo(7);
     }
 
     @Test
     public void findFirstUniqueCharTest() {
-        String s = "tomato";
+        String s1 = "tomato";
+        String s2 = " tomato";
 
-        assertThat(testInstance.findFirstUniqueCharacter(s)).isEqualTo('m');
-    }
-
-    @Test
-    public void findFirstUniqueCharTest_2() {
-        String s = " tomato";
-
-        assertThat(testInstance.findFirstUniqueCharacter(s)).isEqualTo(' ');
+        assertThat(testInstance.findFirstUniqueCharacter(s1)).isEqualTo('m');
+        assertThat(testInstance.findFirstUniqueCharacter(s2)).isEqualTo(' ');
     }
 }

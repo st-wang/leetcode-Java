@@ -3,7 +3,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
 
 public class IsUniqueTest {
-    private IsUnique testInstance = new IsUnique();
+    private final IsUnique testInstance = new IsUnique();
 
     @Test
     public void unique_test() {
@@ -22,14 +22,11 @@ public class IsUniqueTest {
     @Test
     public void unique_test_without_extra_space() {
         String a = "abc";
+        String b = "abcab";
+        String c = "a bc";
 
         assertThat(testInstance.isStringUniqueWithoutExtraSpace(a)).isTrue();
-    }
-
-    @Test
-    public void unique_test_without_extra_space_2() {
-        String a = "abcab";
-
-        assertThat(testInstance.isStringUniqueWithoutExtraSpace(a)).isFalse();
+        assertThat(testInstance.isStringUniqueWithoutExtraSpace(b)).isFalse();
+        assertThat(testInstance.isStringUniqueWithoutExtraSpace(c)).isFalse(); // Not sure about the expected result
     }
 }

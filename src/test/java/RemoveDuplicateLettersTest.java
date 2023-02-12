@@ -11,6 +11,7 @@ public class RemoveDuplicateLettersTest {
         String targetString = "aple";
 
         assertThat(testInstance.removeDuplicateLetters(testString)).isEqualTo(targetString);
+        assertThat(testInstance.simplifiedRemoveDuplicateLetters(testString)).isEqualTo(targetString);
     }
 
     @Test
@@ -19,6 +20,7 @@ public class RemoveDuplicateLettersTest {
         String targetString = "aples rnotd";
 
         assertThat(testInstance.removeDuplicateLetters(testString)).isEqualTo(targetString);
+        assertThat(testInstance.simplifiedRemoveDuplicateLetters(testString)).isEqualTo(targetString);
     }
 
     @Test
