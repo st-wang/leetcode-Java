@@ -23,72 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Commit changes in other classes to make compile pass">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoveZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IsSubSequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LinkedListOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReverseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GroupAnagramsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IsAnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BBLeetCode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BBLeetCode/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindAdjacentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindAdjacentWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IsPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IsSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IsUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KLargestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KLargestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoveZeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplyTwoStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiplyTwoStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PalindromicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromicProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RearrangeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RearrangeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicateLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstUniqueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IsPrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IsPrimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IsUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IsUniqueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KLargestElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KLargestElementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MergeTwoListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergeTwoListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoveZerosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoveZerosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PalindromicProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PalindromicProblemsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RemoveDuplicateLettersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RemoveDuplicateLettersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FirstUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FirstUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsPrime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsSubSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsSubSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/KLargestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KLargestElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList$JumpNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList$LinkedListWithJump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList$NormalNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList$RandomListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MoveZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MoveZeros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultiplyTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiplyTwoStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PalindromicProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PalindromicProblems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RearrangeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RearrangeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicateLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveDuplicateLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstUniqueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FirstUniqueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IsPrimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IsPrimeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IsUniqueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IsUniqueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KLargestElementsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KLargestElementsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MergeTwoListsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MergeTwoListsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortedSumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortedSumsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MoveZeros.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MoveZerosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoveZerosTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PalindromicProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PalindromicProblemsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RemoveDuplicateLettersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RemoveDuplicateLettersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WordCounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WordCounterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +45,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -118,12 +63,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;st-wang&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/st-wang/leetcode-Java.git&quot;,
+    &quot;accountId&quot;: &quot;647791f7-3903-4192-9333-50ae78014507&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="28en5Lni43GdW0PIA0LtJL6h6PW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,21 +92,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://E:/workspace/JavaProjects/leetcodetest/pom.xml" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.GroupAnagramsTest.groupAnagrams.executor": "Run",
+    "JUnit.IsAnagramTest.isAnagram.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/shuting/Documents/JavaProjects/leetcode-Java",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -162,7 +121,7 @@
       <recent name="Amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseTest.reverse_string_solution_2">
+  <component name="RunManager" selected="JUnit.GroupAnagramsTest.groupAnagrams">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,6 +141,12 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,6 +255,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupAnagramsTest.groupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GroupAnagramsTest" />
+      <option name="METHOD_NAME" value="groupAnagrams" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsAnagramTest.isAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsAnagramTest" />
+      <option name="METHOD_NAME" value="isAnagram" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseTest.reverse_string_solution_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -307,30 +296,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReverseTest" />
       <option name="METHOD_NAME" value="reverse_string_solution_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringToIntegerTest.test_atoi_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringToIntegerTest" />
-      <option name="METHOD_NAME" value="test_atoi_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringToIntegerTest.test_atoi_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringToIntegerTest" />
-      <option name="METHOD_NAME" value="test_atoi_2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -358,12 +323,6 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -374,19 +333,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams" />
+      <item itemvalue="JUnit.IsAnagramTest.isAnagram" />
+      <item itemvalue="JUnit.StringToIntegerTest.test_atoi_3" />
       <item itemvalue="JUnit.ReverseTest.reverse_string_solution_1" />
       <item itemvalue="JUnit.ReverseTest.reverse_string_solution_2" />
-      <item itemvalue="JUnit.StringToIntegerTest.test_atoi_1" />
-      <item itemvalue="JUnit.StringToIntegerTest.test_atoi_2" />
-      <item itemvalue="JUnit.StringToIntegerTest.test_atoi_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams" />
+        <item itemvalue="JUnit.IsAnagramTest.isAnagram" />
         <item itemvalue="JUnit.ReverseTest.reverse_string_solution_2" />
         <item itemvalue="JUnit.ReverseTest.reverse_string_solution_1" />
         <item itemvalue="JUnit.StringToIntegerTest.test_atoi_3" />
-        <item itemvalue="JUnit.StringToIntegerTest.test_atoi_2" />
-        <item itemvalue="JUnit.StringToIntegerTest.test_atoi_1" />
       </list>
     </recent_temporary>
   </component>

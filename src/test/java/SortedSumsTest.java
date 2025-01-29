@@ -20,7 +20,7 @@ public class SortedSumsTest {
     public void sum_2() {
         List<Integer> a = asList(2, 7, 5);
         String s = "123";
-        System.out.println(Integer.parseInt());
+        System.out.println(Integer.parseInt(s));
 //        assertThat(test.sortedSum(a)).isEqualTo(26);
     }
 
