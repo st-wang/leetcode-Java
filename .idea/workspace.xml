@@ -22,17 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Commit changes in other classes to make compile pass">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EncodeDecodeStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EncodeDecodeStringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ValidSudokuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Add some exercices">
       <change beforePath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReverseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AddTwoNumbers$ListNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement$BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement$BinaryTree.class" afterDir="false" />
@@ -467,7 +459,23 @@
       <option name="project" value="LOCAL" />
       <updated>1651668539988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update .gitignore">
+      <option name="closed" value="true" />
+      <created>1738195419678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738195419678</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add some exercices">
+      <option name="closed" value="true" />
+      <created>1738195541825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738195541825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +495,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add HashMap exercise" />
     <MESSAGE value="Commit changes in other classes to make compile pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit changes in other classes to make compile pass" />
+    <MESSAGE value="Update .gitignore" />
+    <MESSAGE value="Add some exercices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some exercices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
