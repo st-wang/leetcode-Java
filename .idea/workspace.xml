@@ -22,96 +22,104 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Add some exercices">
+    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AddTwoNumbers$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement$BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement$BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Amazon/TriangleNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Amazon/TriangleNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/BestTimeForStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBLeetCode/BestTimeForStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBLeetCode/MinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TrappingRainWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBLeetCode/TrappingRainWater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum$Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum$Tuple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FindAdjacentWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FindAdjacentWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement$BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Amazon/TriangleNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/BestTimeForStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TrappingRainWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum$Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBLeetCode/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FindAdjacentWords.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/FindAllPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FirstUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FirstUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GroupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsAnagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsPrime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsSubSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsSubSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IsUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IsUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/KLargestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KLargestElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList$LinkedNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedList$LinkedNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$JumpNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListOperations$JumpNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$LinkedListWithJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListOperations$LinkedListWithJump.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$NormalNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListOperations$NormalNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListOperations$RandomListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MergeTwoLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MoveZerosToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MoveZerosToEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultiplyTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiplyTwoStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NaryTreeLevelOrderTraversal$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NaryTreeLevelOrderTraversal$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NaryTreeLevelOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NaryTreeLevelOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OneEditAway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OneEditAway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PalindromicProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PalindromicProblems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RearrangeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RearrangeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recursion$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recursion$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicateLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveDuplicateLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortedSums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortedSums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/URLify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/URLify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ValueHistogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValueHistogram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AddTwoNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AddTwoNumbersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Amazon/MajorityElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Amazon/MajorityElementTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BBLeetCode/BestTimeForStockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BBLeetCode/BestTimeForStockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BBLeetCode/TrappingRainWaterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BBLeetCode/TrappingRainWaterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BBLeetCode/TwoSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BBLeetCode/TwoSumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FindAdjacentWordsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FindAdjacentWordsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FirstUnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IsAnagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IsPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IsSubSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IsUnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KLargestElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList$LinkedNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$JumpNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$LinkedListWithJump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$NormalNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations$RandomListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MoveZerosToEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiplyTwoStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NaryTreeLevelOrderTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NaryTreeLevelOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OneEditAway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PalindromicProblems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RearrangeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Recursion$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicateLetters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortedSums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringToInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/URLify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValueHistogram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AddTwoNumbersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Amazon/MajorityElementTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BBLeetCode/BestTimeForStockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BBLeetCode/TrappingRainWaterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BBLeetCode/TwoSumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FindAdjacentWordsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FindAllPairsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstUniqueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FirstUniqueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GroupAnagramsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GroupAnagramsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HashMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HeapSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HeapSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IsAnagramTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IsAnagramTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IsPrimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IsPrimeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IsSubSequenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IsSubSequenceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IsUniqueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IsUniqueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KLargestElementsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KLargestElementsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LinkedListOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LinkedListOperationsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MergeTwoListsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MergeTwoListsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MoveZerosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoveZerosTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiplyTwoStringsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MultiplyTwoStringsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OneEditAwayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OneEditAwayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PalindromicProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PalindromicProblemsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RearrangeStringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RearrangeStringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RecursionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RecursionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RemoveDuplicateLettersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RemoveDuplicateLettersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ReverseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SortedSumsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SortedSumsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StringToIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StringToIntegerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TreeNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TreeNodeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/URLifyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/URLifyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ValueHistogramTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ValueHistogramTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WordCounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WordCounterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstUniqueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GroupAnagramsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HeapSortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IsAnagramTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IsPrimeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IsSubSequenceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IsUniqueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KLargestElementsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LinkedListOperationsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MergeTwoListsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MoveZerosTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiplyTwoStringsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OneEditAwayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PalindromicProblemsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RearrangeStringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RecursionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RemoveDuplicateLettersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SortedSumsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StringToIntegerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TreeNodeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/URLifyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ValueHistogramTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WordCounterTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -121,8 +129,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -475,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738195541825</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1738195647136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738195647136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +513,8 @@
     <MESSAGE value="Commit changes in other classes to make compile pass" />
     <MESSAGE value="Update .gitignore" />
     <MESSAGE value="Add some exercices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some exercices" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
