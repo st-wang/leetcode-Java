@@ -22,12 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Add MinStack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" afterDir="false" />
+    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Add ThreeSum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PalindromicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromicProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PalindromicProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PalindromicProblemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers$ListNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumbers.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Amazon/MajorityElement$BinaryTree.class" beforeDir="false" />
@@ -182,6 +182,10 @@
     "JUnit.EncodeDecodeStringsTest.test_encode.executor": "Run",
     "JUnit.GroupAnagramsTest.groupAnagrams.executor": "Run",
     "JUnit.IsAnagramTest.isAnagram.executor": "Run",
+    "JUnit.PalindromicProblemsTest.executor": "Run",
+    "JUnit.PalindromicProblemsTest.testPalindromicString2.executor": "Run",
+    "JUnit.PalindromicProblemsTest.testPalindromicString2_2.executor": "Run",
+    "JUnit.PalindromicProblemsTest.test_generate_subSequence.executor": "Run",
     "JUnit.RearrangeStringTest.rearrangeAString.executor": "Run",
     "JUnit.ReverseTest.reverse_int.executor": "Run",
     "JUnit.ReverseTest.reverse_string_solution_2.executor": "Run",
@@ -217,7 +221,7 @@
       <recent name="Amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RearrangeStringTest.rearrangeAString">
+  <component name="RunManager" selected="JUnit.PalindromicProblemsTest.test_generate_subSequence">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,11 +355,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodeDecodeStringsTest.test_decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromicProblemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncodeDecodeStringsTest" />
-      <option name="METHOD_NAME" value="test_decode" />
+      <option name="MAIN_CLASS_NAME" value="PalindromicProblemsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromicProblemsTest.testPalindromicString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PalindromicProblemsTest" />
+      <option name="METHOD_NAME" value="testPalindromicString2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -363,11 +378,23 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodeDecodeStringsTest.test_encode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromicProblemsTest.testPalindromicString2_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncodeDecodeStringsTest" />
-      <option name="METHOD_NAME" value="test_encode" />
+      <option name="MAIN_CLASS_NAME" value="PalindromicProblemsTest" />
+      <option name="METHOD_NAME" value="testPalindromicString2_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromicProblemsTest.test_generate_subSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PalindromicProblemsTest" />
+      <option name="METHOD_NAME" value="test_generate_subSequence" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -380,30 +407,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RearrangeStringTest" />
       <option name="METHOD_NAME" value="rearrangeAString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSumTest.three_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreeSumTest" />
-      <option name="METHOD_NAME" value="three_sum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidSudokuTest.test_non_valid_sudoku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidSudokuTest" />
-      <option name="METHOD_NAME" value="test_non_valid_sudoku" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -429,19 +432,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EncodeDecodeStringsTest.test_decode" />
-      <item itemvalue="JUnit.EncodeDecodeStringsTest.test_encode" />
+      <item itemvalue="JUnit.PalindromicProblemsTest" />
+      <item itemvalue="JUnit.PalindromicProblemsTest.testPalindromicString2" />
+      <item itemvalue="JUnit.PalindromicProblemsTest.testPalindromicString2_2" />
+      <item itemvalue="JUnit.PalindromicProblemsTest.test_generate_subSequence" />
       <item itemvalue="JUnit.RearrangeStringTest.rearrangeAString" />
-      <item itemvalue="JUnit.ThreeSumTest.three_sum" />
-      <item itemvalue="JUnit.ValidSudokuTest.test_non_valid_sudoku" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromicProblemsTest.test_generate_subSequence" />
+        <item itemvalue="JUnit.PalindromicProblemsTest.testPalindromicString2_2" />
+        <item itemvalue="JUnit.PalindromicProblemsTest.testPalindromicString2" />
+        <item itemvalue="JUnit.PalindromicProblemsTest" />
         <item itemvalue="JUnit.RearrangeStringTest.rearrangeAString" />
-        <item itemvalue="JUnit.ThreeSumTest.three_sum" />
-        <item itemvalue="JUnit.ValidSudokuTest.test_non_valid_sudoku" />
-        <item itemvalue="JUnit.EncodeDecodeStringsTest.test_decode" />
-        <item itemvalue="JUnit.EncodeDecodeStringsTest.test_encode" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738270207529</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add ThreeSum">
+      <option name="closed" value="true" />
+      <created>1738317713680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738317713680</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +538,8 @@
     <MESSAGE value="Add some exercices" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="Add MinStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add MinStack" />
+    <MESSAGE value="Add ThreeSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ThreeSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,13 +566,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/PalindromicProblems.java</url>
-          <line>133</line>
+          <line>180</line>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PalindromicProblems.java</url>
-          <line>159</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TreeNode.java</url>

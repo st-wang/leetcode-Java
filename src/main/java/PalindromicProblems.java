@@ -1,7 +1,28 @@
 import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class PalindromicProblems {
+
+    // Wrong solution!!!!
+    public static List<String> generateSubsequences(String str) {
+        int n = str.length();
+        int total = 1 << n;  // 2^n subsequences
+
+        List<String> list = new ArrayList<>();
+
+        for (int i = 0; i < total; i++) {
+            StringBuilder subseq = new StringBuilder();
+            for (int j = 0; j < n; j++) {
+                if ((i & (1 << j)) != 0) {  // Check if j-th bit is set
+                    subseq.append(str.charAt(j));
+                }
+            }
+            list.add(subseq.toString());
+//            System.out.println(subseq.toString());
+        }
+        System.out.println(list);
+        return list;
+    }
 
     // Palindromic strings => abc - cba
     // Case ignored
@@ -48,8 +69,32 @@ public class PalindromicProblems {
         return true;
     }
 
-    // For aab,
-    // Substrings are a, a, b, aa, ab, ab
+    // Palindromic string => "abb 2a"
+    // Non-alphanumeric characters ignored
+    // Case insensitive
+    boolean isPalindromicString2(String a) {
+        if (a.isEmpty()) {
+            return true;
+        }
+
+        String string = a.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+        int length = string.length();
+
+        Stack<Character> stack = new Stack<>();
+
+        for (int i = 0; i < length / 2; i++) {
+            stack.push(string.charAt(i));
+        }
+
+        int half = length % 2 == 0 ? length / 2 : length / 2 + 1;
+        for (int i = half; i < length; i++) {
+            if (stack.pop() != string.charAt(i)) return false;
+        }
+
+        return true;
+    }
+
+    // For "aab", substrings are a, a, b, aa, ab, ab
     // Among which the palindromic ones are a, a, b, aa
     public int palindromicSubstrings(String inputString) {
         if (inputString == null) {
@@ -91,6 +136,8 @@ public class PalindromicProblems {
         }
 
         int longestSubsequence = 0;
+
+        // generate all the sub sequneces (2^n - 1)
 
 
         return longestSubsequence;
@@ -139,7 +186,7 @@ public class PalindromicProblems {
 
     /*Find the smallest prime palindrome greater than or equal to N.
       Examples:
-      Input: 6
+      Input: N = 6
       Output: 7
 
       Input: 8

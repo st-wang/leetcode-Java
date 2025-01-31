@@ -2,6 +2,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class PalindromicProblemsTest {
     private final PalindromicProblems testInstance = new PalindromicProblems();
 
@@ -30,10 +33,24 @@ public class PalindromicProblemsTest {
     }
 
     @Test
-    public void testPalindromicPermutation_4() {
+    public void testPalindromicString() {
         String a = "Taco Cat";
 
         assertThat(testInstance.isPalindromicString(a)).isTrue();
+    }
+
+    @Test
+    public void testPalindromicString2() {
+        String a = "Taco Cat";
+
+        assertThat(testInstance.isPalindromicString2(a)).isTrue();
+    }
+
+    @Test
+    public void testPalindromicString2_2() {
+        String a = "ta ro o?rat)";
+
+        assertThat(testInstance.isPalindromicString2(a)).isTrue();
     }
 
     @Test
@@ -90,6 +107,13 @@ public class PalindromicProblemsTest {
         String s = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"; // "cdAAAAAdc"
 
         assertThat(testInstance.longestPalindrome(s)).isEqualTo(983);
+    }
+
+    @Test
+    public void test_generate_subSequence() {
+        String s = "bbab";
+
+        assertThat(PalindromicProblems.generateSubsequences(s)).isEqualTo(Arrays.asList("b", "b", "a", "b"));
     }
 
     @Test
