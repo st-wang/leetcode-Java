@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinStack.java" afterDir="false" />
+    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Add MinStack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindAllPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindAllPairsTest.java" afterDir="false" />
@@ -129,8 +130,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -181,8 +182,10 @@
     "JUnit.EncodeDecodeStringsTest.test_encode.executor": "Run",
     "JUnit.GroupAnagramsTest.groupAnagrams.executor": "Run",
     "JUnit.IsAnagramTest.isAnagram.executor": "Run",
+    "JUnit.RearrangeStringTest.rearrangeAString.executor": "Run",
     "JUnit.ReverseTest.reverse_int.executor": "Run",
     "JUnit.ReverseTest.reverse_string_solution_2.executor": "Run",
+    "JUnit.ThreeSumTest.three_sum.executor": "Run",
     "JUnit.ValidSudokuTest.test_non_valid_sudoku.executor": "Run",
     "Maven.leet-code-test [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -214,7 +217,7 @@
       <recent name="Amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidSudokuTest.test_non_valid_sudoku">
+  <component name="RunManager" selected="JUnit.RearrangeStringTest.rearrangeAString">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,17 +351,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodeDecodeStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncodeDecodeStringsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EncodeDecodeStringsTest.test_decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -383,11 +375,23 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseTest.reverse_int" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RearrangeStringTest.rearrangeAString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReverseTest" />
-      <option name="METHOD_NAME" value="reverse_int" />
+      <option name="MAIN_CLASS_NAME" value="RearrangeStringTest" />
+      <option name="METHOD_NAME" value="rearrangeAString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSumTest.three_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThreeSumTest" />
+      <option name="METHOD_NAME" value="three_sum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -425,19 +429,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EncodeDecodeStringsTest" />
       <item itemvalue="JUnit.EncodeDecodeStringsTest.test_decode" />
       <item itemvalue="JUnit.EncodeDecodeStringsTest.test_encode" />
-      <item itemvalue="JUnit.ReverseTest.reverse_int" />
+      <item itemvalue="JUnit.RearrangeStringTest.rearrangeAString" />
+      <item itemvalue="JUnit.ThreeSumTest.three_sum" />
       <item itemvalue="JUnit.ValidSudokuTest.test_non_valid_sudoku" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RearrangeStringTest.rearrangeAString" />
+        <item itemvalue="JUnit.ThreeSumTest.three_sum" />
         <item itemvalue="JUnit.ValidSudokuTest.test_non_valid_sudoku" />
         <item itemvalue="JUnit.EncodeDecodeStringsTest.test_decode" />
         <item itemvalue="JUnit.EncodeDecodeStringsTest.test_encode" />
-        <item itemvalue="JUnit.EncodeDecodeStringsTest" />
-        <item itemvalue="JUnit.ReverseTest.reverse_int" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738195647136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add MinStack">
+      <option name="closed" value="true" />
+      <created>1738270207529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738270207529</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +526,8 @@
     <MESSAGE value="Update .gitignore" />
     <MESSAGE value="Add some exercices" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="Add MinStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MinStack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
