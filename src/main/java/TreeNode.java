@@ -1,16 +1,27 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+// A BINARY TREE nde
 public class TreeNode {
 
     int val;
     TreeNode left;
     TreeNode right;
 
+    public TreeNode() {
+    }
+
     public TreeNode(int v) {
         this.val = v;
+    }
+
+    public TreeNode(int v, TreeNode left, TreeNode right) {
+        this.val = v;
+        this.left = left;
+        this.right = right;
     }
 
     public TreeNode insertNode(TreeNode root, int value) {
@@ -68,8 +79,8 @@ public class TreeNode {
     public void preOrderTraversal(TreeNode root) {
         if (root != null) {
             System.out.println(root.val);
-            inOrderTraversal(root.left);
-            inOrderTraversal(root.right);
+            preOrderTraversal(root.left);
+            preOrderTraversal(root.right);
         }
     }
 
@@ -105,12 +116,43 @@ public class TreeNode {
 
             if (node.left != null) {
                 queue.add(node.left);
-            }
-            else if (node.right != null) {
+            } else if (node.right != null) {
                 queue.add(node.right);
             }
         }
 
         return nodeList;
+    }
+
+    public TreeNode invertTree(TreeNode root) {
+        // With width first traversal, if a tree is
+        //       1
+        //    2    3
+        //  4  5  6  7
+        // the inverted tree should be
+        //       1
+        //    3    2
+        //  7  6  5  4
+
+        if (root == null || (root.left == null && root.right == null)) return root;
+
+        Queue<TreeNode> queue = new ConcurrentLinkedQueue<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            TreeNode temp = node.left;
+            node.left = node.right;
+            node.right = temp;
+
+            if (node.left != null) {
+                queue.offer(node.left);
+            }
+            if (node.right != null) {
+                queue.offer(node.right);
+            }
+        }
+
+        return root;
     }
 }
