@@ -3,8 +3,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
-
 public class KLargestElements {
 
     // Fine first K elements in a number list
@@ -19,8 +17,9 @@ public class KLargestElements {
 
         List<Integer> sortedList = list.stream()
                 .sorted()
-                .collect(toList());
+                .toList();
 
+        List[] sorted = Arrays.stream(new List[]{list}).sorted(Collections.reverseOrder()).toArray(List[]::new);
         Arrays.sort(new List[]{list}, Collections.reverseOrder());
 
         for (int i = list.size() - 1; i > k + 1; i--) {
@@ -60,9 +59,8 @@ public class KLargestElements {
         System.out.println(list);
 
         for (int i = 0; i < k; i++) {
-            kLargest.add(list.get(i));
         }
 
-        return kLargest;
+        return list;
     }
 }
