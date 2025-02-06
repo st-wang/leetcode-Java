@@ -40,7 +40,7 @@ public class LinkedListOperations {
         LinkedList.LinkedNode node = list.head;
         values.add(node.value);
 
-        while(node.next != null) {
+        while (node.next != null) {
             node = node.next;
             values.add(node.value);
         }
@@ -85,38 +85,6 @@ public class LinkedListOperations {
     // Expected: 8 -> 0 -> 7
     // => AddTwoNumbers.java
 
-
-    // single linked list, with a special variable "jump":
-    // pointing to either null or whatever node within the list
-    // write a deep copy for such a list (note: it can be done in O(n))
-    class LinkedListWithJump {
-        NormalNode head;
-
-        LinkedListWithJump(NormalNode head) {
-            this.head = head;
-        }
-    }
-
-    class NormalNode {
-        int value;
-        NormalNode next = null;
-
-        NormalNode() {
-        }
-
-        NormalNode(int value) {
-            this.value = value;
-        }
-    }
-
-    class JumpNode extends NormalNode {
-        NormalNode jump = null;
-
-        JumpNode() {
-            super();
-        }
-    }
-
     public LinkedListWithJump deepCopySingleLinkedList(LinkedListWithJump origin) {
         LinkedListWithJump copy = new LinkedListWithJump(new NormalNode());
 
@@ -137,26 +105,6 @@ public class LinkedListOperations {
 
         return copy;
     }
-
-
-    //----------------------------------------------------------------------//
-    // You are given a Double Link List with one pointer of each node
-    // pointing to the next node just like in a single link list.
-    // The second pointer which is arbitary pointer which can point to
-    // any node in the list and not just the previous node.
-    // The task is to complete the function copyList which
-    // takes one argument the head of the linked list to be copied
-    // and should return the head of the copied linked list
-
-    class RandomListNode {
-        int label;
-        RandomListNode next, random;
-
-        RandomListNode(int x) {
-            this.label = x;
-        }
-    }
-
 
     public RandomListNode copyRandomList(RandomListNode head) {
 
@@ -223,6 +171,16 @@ public class LinkedListOperations {
         return node;
     }
 
+
+    //----------------------------------------------------------------------//
+    // You are given a Double Link List with one pointer of each node
+    // pointing to the next node just like in a single link list.
+    // The second pointer which is arbitary pointer which can point to
+    // any node in the list and not just the previous node.
+    // The task is to complete the function copyList which
+    // takes one argument the head of the linked list to be copied
+    // and should return the head of the copied linked list
+
     // #Amazon
     // return the Nth node in a LinkedList from THE END of the list
     // with unknown LinkedList length
@@ -253,22 +211,22 @@ public class LinkedListOperations {
     // solution 2
     // O(listSize + N)
     public LinkedList.LinkedNode returnNthNodeInListFromEndWithStack(LinkedList.LinkedNode linkedNode, int N) {
-        Stack<LinkedList.LinkedNode> linkedListNodeStack = new Stack<>();
+        Stack<LinkedList.LinkedNode> nodeStack = new Stack<>();
 
-        while (linkedNode.next != null) {
-            linkedListNodeStack.push(linkedNode);
+        while (linkedNode != null) {
+            nodeStack.push(linkedNode);
             linkedNode = linkedNode.next;
         }
 
-        if (N >= linkedListNodeStack.size()) {
-            return linkedListNodeStack.firstElement();
+        if (N >= nodeStack.size()) {
+            return nodeStack.lastElement(); // If N > linkedlist size, return the last node
         }
 
-        for (int i = 0; i < N; i++) {
-             linkedListNodeStack.pop();
+        for (int i = 0; i < N - 1; i++) {
+            nodeStack.pop();
         }
 
-        return linkedListNodeStack.lastElement();
+        return nodeStack.lastElement(); // Nth element
     }
 
     // #Amazon
@@ -290,5 +248,79 @@ public class LinkedListOperations {
         }
 
         return mainNode;
+    }
+
+    public LinkedList.LinkedNode removeNthNodeInListFromEnd(LinkedList.LinkedNode linkedNode, int N) {
+        Stack<LinkedList.LinkedNode> nodes = new Stack<>();
+
+        while (linkedNode != null) {
+            nodes.push(linkedNode);
+            linkedNode = linkedNode.next;
+        }
+
+        if (N > nodes.size()) {
+            return linkedNode;
+        }
+
+        int size = nodes.size();
+        Stack<LinkedList.LinkedNode> newStack = new Stack<>();
+        for (int i = 0; i < size; i++) {
+            if (i == N - 1) {
+                nodes.pop();
+            } else {
+                newStack.push(nodes.pop());
+            }
+        }
+
+        LinkedList.LinkedNode head = new LinkedList.LinkedNode(newStack.pop().value);
+        LinkedList.LinkedNode next = new LinkedList.LinkedNode(newStack.pop().value);
+        head.next = next;
+
+        while (!newStack.isEmpty()) {
+            next.next = new LinkedList.LinkedNode(newStack.pop().value);
+            next = next.next;
+        }
+
+        return head;
+    }
+
+    // single linked list, with a special variable "jump":
+    // pointing to either null or whatever node within the list
+    // write a deep copy for such a list (note: it can be done in O(n))
+    class LinkedListWithJump {
+        NormalNode head;
+
+        LinkedListWithJump(NormalNode head) {
+            this.head = head;
+        }
+    }
+
+    class NormalNode {
+        int value;
+        NormalNode next = null;
+
+        NormalNode() {
+        }
+
+        NormalNode(int value) {
+            this.value = value;
+        }
+    }
+
+    class JumpNode extends NormalNode {
+        NormalNode jump = null;
+
+        JumpNode() {
+            super();
+        }
+    }
+
+    class RandomListNode {
+        int label;
+        RandomListNode next, random;
+
+        RandomListNode(int x) {
+            this.label = x;
+        }
     }
 }

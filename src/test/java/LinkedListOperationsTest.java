@@ -28,7 +28,27 @@ public class LinkedListOperationsTest {
         assertThat(values).isEqualTo(Arrays.asList(3, 2, 1, 0));
     }
 
+    @Test
+    public void return_Nth_node_from_the_end_of_linkedList() {
+        LinkedList list = createLinkedList(6);
 
+        LinkedList.LinkedNode node = testInstance.returnNthNodeInListFromEndWithStack(list.head, 4);
+
+        assertThat(node.value).isEqualTo(2);
+    }
+
+    @Test
+    public void remove_Nth_node_from_the_end_of_linkedList() {
+        LinkedList list = createLinkedList(6);
+
+        LinkedList.LinkedNode node = testInstance.removeNthNodeInListFromEnd(list.head, 4);
+
+        assertThat(node.value).isEqualTo(0);
+        assertThat(node.next.value).isEqualTo(1);
+        assertThat(node.next.next.value).isEqualTo(3);
+        assertThat(node.next.next.next.value).isEqualTo(4);
+        assertThat(node.next.next.next.next.value).isEqualTo(5);
+    }
 
 
     private LinkedList createLinkedList(int size) {
