@@ -1,9 +1,11 @@
+package String;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
+import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class PalindromicProblemsTest {
     private final PalindromicProblems testInstance = new PalindromicProblems();
@@ -13,7 +15,7 @@ public class PalindromicProblemsTest {
         String a = "abc";
         String b = "cba";
 
-        assertThat(testInstance.isPalindromicPermutation(a, b)).isTrue();
+        Assertions.assertThat(testInstance.isPalindromicPermutation(a, b)).isTrue();
     }
 
     @Test
@@ -21,7 +23,7 @@ public class PalindromicProblemsTest {
         String a = "abc";
         String b = "cab";
 
-        assertThat(testInstance.isPalindromicPermutation(a, b)).isFalse();
+        Assertions.assertThat(testInstance.isPalindromicPermutation(a, b)).isFalse();
     }
 
     @Test
@@ -29,140 +31,140 @@ public class PalindromicProblemsTest {
         String a = "Abc ad";
         String b = "da cab";
 
-        assertThat(testInstance.isPalindromicPermutation(a, b)).isFalse();
+        Assertions.assertThat(testInstance.isPalindromicPermutation(a, b)).isFalse();
     }
 
     @Test
     public void testPalindromicString() {
         String a = "Taco Cat";
 
-        assertThat(testInstance.isPalindromicString(a)).isTrue();
+        Assertions.assertThat(testInstance.isPalindromicString(a)).isTrue();
     }
 
     @Test
     public void testPalindromicString2() {
         String a = "Taco Cat";
 
-        assertThat(testInstance.isPalindromicString2(a)).isTrue();
+        Assertions.assertThat(testInstance.isPalindromicString2(a)).isTrue();
     }
 
     @Test
     public void testPalindromicString2_2() {
         String a = "ta ro o?rat)";
 
-        assertThat(testInstance.isPalindromicString2(a)).isTrue();
+        Assertions.assertThat(testInstance.isPalindromicString2(a)).isTrue();
     }
 
     @Test
     public void testPalindromicSubstrings_1() {
         String a = "abc";
 
-        assertThat(testInstance.palindromicSubstrings(a)).isEqualTo(3);
+        Assertions.assertThat(testInstance.palindromicSubstrings(a)).isEqualTo(3);
     }
 
     @Test
     public void testPalindromicSubstrings_2() {
         String a = "aaa";
 
-        assertThat(testInstance.palindromicSubstrings(a)).isEqualTo(6);
+        Assertions.assertThat(testInstance.palindromicSubstrings(a)).isEqualTo(6);
     }
 
     @Test
     public void longestPalindrome() {
         String s = "aa"; //"aa"
 
-        assertThat(testInstance.longestPalindrome(s)).isEqualTo(2);
+        Assertions.assertThat(testInstance.longestPalindrome(s)).isEqualTo(2);
     }
 
     @Test
     public void longestPalindrome_1() {
         String s = "abccccdd"; //"ccdbdcc"
 
-        assertThat(testInstance.longestPalindrome(s)).isEqualTo(7);
+        Assertions.assertThat(testInstance.longestPalindrome(s)).isEqualTo(7);
     }
 
     @Test
     public void longestPalindrome_2() {
         String s = "Aaccbbbdd"; // "cdbbbdc"
 
-        assertThat(testInstance.longestPalindrome(s)).isEqualTo(7);
+        Assertions.assertThat(testInstance.longestPalindrome(s)).isEqualTo(7);
     }
 
     @Test
     public void longestPalindrome_3() {
         String s = "AAAAAccbbbdd"; // "cdbAAAAAbdc"
 
-        assertThat(testInstance.longestPalindrome(s)).isEqualTo(11);
+        Assertions.assertThat(testInstance.longestPalindrome(s)).isEqualTo(11);
     }
 
     @Test
     public void longestPalindrome_4() {
         String s = "AAAAAccbbbddeee"; // "cdbeAAAAAebdc"
 
-        assertThat(testInstance.longestPalindrome(s)).isEqualTo(13);
+        Assertions.assertThat(testInstance.longestPalindrome(s)).isEqualTo(13);
     }
 
     @Test
     public void longestPalindrome_5() {
         String s = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"; // "cdAAAAAdc"
 
-        assertThat(testInstance.longestPalindrome(s)).isEqualTo(983);
+        Assertions.assertThat(testInstance.longestPalindrome(s)).isEqualTo(983);
     }
 
     @Test
     public void test_generate_subSequence() {
         String s = "bbab";
 
-        assertThat(PalindromicProblems.generateSubsequences(s)).isEqualTo(Arrays.asList("b", "b", "a", "b"));
+        Assertions.assertThat(PalindromicProblems.generateSubsequences(s)).isEqualTo(Arrays.asList("b", "b", "a", "b"));
     }
 
     @Test
     public void isANumberPalindrome() {
         int n = 12321;
 
-        assertThat(testInstance.isANumberPalindrome(n)).isTrue();
+        Assertions.assertThat(testInstance.isANumberPalindrome(n)).isTrue();
     }
 
     @Test
     public void isANumberPalindrome_2() {
         int n = 12;
 
-        assertThat(testInstance.isANumberPalindrome(n)).isFalse();
+        Assertions.assertThat(testInstance.isANumberPalindrome(n)).isFalse();
     }
 
     @Test
     public void primePalindrome() {
         int n = 13;
 
-        assertThat(testInstance.primePalindrome(n)).isEqualTo(101);
+        Assertions.assertThat(testInstance.primePalindrome(n)).isEqualTo(101);
     }
 
     @Test
     public void primePalindrome_2() {
         int n = 102;
 
-        assertThat(testInstance.primePalindrome(n)).isEqualTo(131);
+        Assertions.assertThat(testInstance.primePalindrome(n)).isEqualTo(131);
     }
 
     @Test
     public void primePalindrome_3() {
         int n = 2;
 
-        assertThat(testInstance.primePalindrome(n)).isEqualTo(2);
+        Assertions.assertThat(testInstance.primePalindrome(n)).isEqualTo(2);
     }
 
     @Test
     public void primePalindrome_4() {
         int n = 1;
 
-        assertThat(testInstance.primePalindrome(n)).isEqualTo(2);
+        Assertions.assertThat(testInstance.primePalindrome(n)).isEqualTo(2);
     }
 
     @Test
     public void primePalindrome_5() {
         int n = 9989900;
 
-        assertThat(testInstance.primePalindrome(n)).isEqualTo(2);
+        Assertions.assertThat(testInstance.primePalindrome(n)).isEqualTo(2);
     }
 
 }

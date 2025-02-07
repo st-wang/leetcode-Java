@@ -22,10 +22,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Changes in KLargestElements">
-      <change afterPath="$PROJECT_DIR$/src/main/java/KTopFrequentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KTopFrequentElementsTest.java" afterDir="false" />
+    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Remove node from LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/StringCompression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EncodeDecodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/EncodeDecodeStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/IsAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IsSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/IsSubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IsUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/IsUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplyTwoStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/MultiplyTwoStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OneEditAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/OneEditAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PalindromicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/PalindromicProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RearrangeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/RearrangeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/RemoveDuplicateLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/StringToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/URLify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/URLify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EncodeDecodeStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/EncodeDecodeStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IsAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/IsAnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IsSubSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/IsSubSequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IsUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/IsUniqueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LinkedListOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LinkedListOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MultiplyTwoStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/MultiplyTwoStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OneEditAwayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/OneEditAwayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PalindromicProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/PalindromicProblemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RearrangeStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/RearrangeStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RemoveDuplicateLettersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/RemoveDuplicateLettersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/StringToIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/URLifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/URLifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +73,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,6 +120,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AddTwoNumbersTest.can_add_two_numbers.executor": "Debug",
     "JUnit.EncodeDecodeStringsTest.executor": "Run",
     "JUnit.EncodeDecodeStringsTest.test_decode.executor": "Run",
     "JUnit.EncodeDecodeStringsTest.test_encode.executor": "Run",
@@ -102,16 +130,26 @@
     "JUnit.KTopFrequentElementsTest.frequentKTimes.executor": "Run",
     "JUnit.KTopFrequentElementsTest.topKFrequent.executor": "Run",
     "JUnit.KTopFrequentElementsTest.topKFrequentElementsReferenceSolution_1.executor": "Debug",
-    "JUnit.KTopFrequentElementsTest.topKFrequentElements_1.executor": "Run",
+    "JUnit.KTopFrequentElementsTest.topKFrequentElements_1.executor": "Debug",
     "JUnit.KTopFrequentElementsTest.topKFrequentElements_2.executor": "Run",
     "JUnit.KTopFrequentElementsTest.topKfrequentElements_1.executor": "Run",
     "JUnit.KTopFrequentElementsTest.topKfrequentElements_2.executor": "Run",
+    "JUnit.KeyValueStoreTest.can_do_map_operations.executor": "Run",
+    "JUnit.LinkedListOperationsTest.get_linkedList_values.executor": "Run",
+    "JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList.executor": "Run",
+    "JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2.executor": "Run",
+    "JUnit.LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList.executor": "Run",
+    "JUnit.LinkedListOperationsTest.reverse_linkedList.executor": "Run",
     "JUnit.MinEatingSpeedTest.minEatingSpeed.executor": "Run",
     "JUnit.MinEatingSpeedTest.minEatingSpeed_2.executor": "Run",
     "JUnit.PalindromicProblemsTest.executor": "Run",
     "JUnit.PalindromicProblemsTest.testPalindromicString2.executor": "Run",
     "JUnit.PalindromicProblemsTest.testPalindromicString2_2.executor": "Run",
     "JUnit.PalindromicProblemsTest.test_generate_subSequence.executor": "Run",
+    "JUnit.ProductOfArrayTest.productExceptSelf_division.executor": "Run",
+    "JUnit.ProductOfArrayTest.productExceptSelf_division_2.executor": "Run",
+    "JUnit.ProductOfArrayTest.productExceptSelf_division_3.executor": "Run",
+    "JUnit.ProductOfArrayTest.productExceptSelf_division_4.executor": "Debug",
     "JUnit.RearrangeStringTest.rearrangeAString.executor": "Run",
     "JUnit.ReverseTest.reverse_int.executor": "Run",
     "JUnit.ReverseTest.reverse_string_solution_2.executor": "Run",
@@ -141,6 +179,8 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="String" />
       <recent name="BBLeetCode" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -148,7 +188,7 @@
       <recent name="Amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KTopFrequentElementsTest.topKFrequentElementsReferenceSolution_1">
+  <component name="RunManager" selected="JUnit.AddTwoNumbersTest.can_add_two_numbers">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,11 +322,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KTopFrequentElementsTest.topKFrequentElementsReferenceSolution_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddTwoNumbersTest.can_add_two_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KTopFrequentElementsTest" />
-      <option name="METHOD_NAME" value="topKFrequentElementsReferenceSolution_1" />
+      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
+      <option name="METHOD_NAME" value="can_add_two_numbers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -294,11 +334,11 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KTopFrequentElementsTest.topKFrequentElements_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListOperationsTest.get_linkedList_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KTopFrequentElementsTest" />
-      <option name="METHOD_NAME" value="topKFrequentElements_1" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
+      <option name="METHOD_NAME" value="get_linkedList_values" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -306,11 +346,11 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KTopFrequentElementsTest.topKFrequentElements_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KTopFrequentElementsTest" />
-      <option name="METHOD_NAME" value="topKFrequentElements_2" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
+      <option name="METHOD_NAME" value="remove_Nth_node_from_the_end_of_linkedList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -318,11 +358,11 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KTopFrequentElementsTest.topKfrequentElements_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KTopFrequentElementsTest" />
-      <option name="METHOD_NAME" value="topKfrequentElements_1" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
+      <option name="METHOD_NAME" value="remove_Nth_node_from_the_end_of_linkedList_2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -330,11 +370,11 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KTopFrequentElementsTest.topKfrequentElements_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KTopFrequentElementsTest" />
-      <option name="METHOD_NAME" value="topKfrequentElements_2" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
+      <option name="METHOD_NAME" value="return_Nth_node_from_the_end_of_linkedList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -360,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.KTopFrequentElementsTest.topKFrequentElementsReferenceSolution_1" />
-      <item itemvalue="JUnit.KTopFrequentElementsTest.topKFrequentElements_1" />
-      <item itemvalue="JUnit.KTopFrequentElementsTest.topKFrequentElements_2" />
-      <item itemvalue="JUnit.KTopFrequentElementsTest.topKfrequentElements_1" />
-      <item itemvalue="JUnit.KTopFrequentElementsTest.topKfrequentElements_2" />
+      <item itemvalue="JUnit.AddTwoNumbersTest.can_add_two_numbers" />
+      <item itemvalue="JUnit.LinkedListOperationsTest.get_linkedList_values" />
+      <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList" />
+      <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2" />
+      <item itemvalue="JUnit.LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KTopFrequentElementsTest.topKFrequentElementsReferenceSolution_1" />
-        <item itemvalue="JUnit.KTopFrequentElementsTest.topKFrequentElements_1" />
-        <item itemvalue="JUnit.KTopFrequentElementsTest.topKFrequentElements_2" />
-        <item itemvalue="JUnit.KTopFrequentElementsTest.topKfrequentElements_2" />
-        <item itemvalue="JUnit.KTopFrequentElementsTest.topKfrequentElements_1" />
+        <item itemvalue="JUnit.AddTwoNumbersTest.can_add_two_numbers" />
+        <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2" />
+        <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList" />
+        <item itemvalue="JUnit.LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList" />
+        <item itemvalue="JUnit.LinkedListOperationsTest.get_linkedList_values" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +514,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738425607721</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add KTopFrequentElements">
+      <option name="closed" value="true" />
+      <created>1738665969176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738665969176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add KeyValueStore and ProductOfArray">
+      <option name="closed" value="true" />
+      <created>1738770982527</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738770982527</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Remove node from LinkedList">
+      <option name="closed" value="true" />
+      <created>1738855084770</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738855084770</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +567,10 @@
     <MESSAGE value="Some changes in TreeNode" />
     <MESSAGE value="Add MinEatingSpeed" />
     <MESSAGE value="Changes in KLargestElements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in KLargestElements" />
+    <MESSAGE value="Add KTopFrequentElements" />
+    <MESSAGE value="Add KeyValueStore and ProductOfArray" />
+    <MESSAGE value="Remove node from LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove node from LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -514,22 +581,22 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/OneEditAway.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/OneEditAway.java</url>
           <line>15</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/OneEditAway.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/OneEditAway.java</url>
           <line>26</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/OneEditAway.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/OneEditAway.java</url>
           <line>29</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PalindromicProblems.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/PalindromicProblems.java</url>
           <line>180</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -539,7 +606,7 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/RemoveDuplicateLetters.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/RemoveDuplicateLetters.java</url>
           <line>80</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
@@ -549,48 +616,85 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/IsSubSequence.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/IsSubSequence.java</url>
           <line>19</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StringToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/StringToInteger.java</url>
           <line>63</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StringToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/StringToInteger.java</url>
           <line>65</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StringToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/String/StringToInteger.java</url>
           <line>67</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/KTopFrequentElements.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/KTopFrequentElements.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/KTopFrequentElements.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/KTopFrequentElements.java</url>
-          <line>121</line>
+          <line>135</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/KTopFrequentElements.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/KTopFrequentElements.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductOfArray.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductOfArray.java</url>
+          <line>49</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/KeyValueStore.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/KeyValueStore.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/KeyValueStore.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedListOperations.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="82" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
