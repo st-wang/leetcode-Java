@@ -50,6 +50,14 @@ public class LinkedListOperationsTest {
         assertThat(node.next.next.next.next.value).isEqualTo(5);
     }
 
+    @Test
+    public void remove_Nth_node_from_the_end_of_linkedList_2() {
+        LinkedList list = createLinkedList(1);
+
+        LinkedList.LinkedNode node = testInstance.removeNthNodeInListFromEnd(list.head, 1);
+
+        assertThat(node).isNull();
+    }
 
     private LinkedList createLinkedList(int size) {
         LinkedList list = new LinkedList();

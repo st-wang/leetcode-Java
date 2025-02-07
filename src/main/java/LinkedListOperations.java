@@ -258,7 +258,7 @@ public class LinkedListOperations {
             linkedNode = linkedNode.next;
         }
 
-        if (N > nodes.size()) {
+        if (N >= nodes.size()) {
             return linkedNode;
         }
 
@@ -270,6 +270,10 @@ public class LinkedListOperations {
             } else {
                 newStack.push(nodes.pop());
             }
+        }
+
+        if (newStack.isEmpty()) {
+            return null;
         }
 
         LinkedList.LinkedNode head = new LinkedList.LinkedNode(newStack.pop().value);
