@@ -22,37 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Remove node from LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/String/StringCompression.java" afterDir="false" />
+    <list default="true" id="eb8e6abf-46db-4064-bc17-2894591222b8" name="Default" comment="Move ValidSudoku to src package">
+      <change afterPath="$PROJECT_DIR$/src/test/java/String/StringCompressionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EncodeDecodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/EncodeDecodeStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/IsAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/IsSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/IsUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplyTwoStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/MultiplyTwoStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OneEditAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/OneEditAway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PalindromicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/PalindromicProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RearrangeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/RearrangeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/RemoveDuplicateLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/URLify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/URLify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/String/PalindromicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/PalindromicProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/String/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/String/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EncodeDecodeStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/EncodeDecodeStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IsAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/IsAnagramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IsSubSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/IsSubSequenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IsUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/IsUniqueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LinkedListOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LinkedListOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiplyTwoStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/MultiplyTwoStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OneEditAwayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/OneEditAwayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PalindromicProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/PalindromicProblemsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RearrangeStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/RearrangeStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RemoveDuplicateLettersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/RemoveDuplicateLettersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/StringToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/URLifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/String/URLifyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +50,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -153,6 +130,9 @@
     "JUnit.RearrangeStringTest.rearrangeAString.executor": "Run",
     "JUnit.ReverseTest.reverse_int.executor": "Run",
     "JUnit.ReverseTest.reverse_string_solution_2.executor": "Run",
+    "JUnit.StringCompressionTest.compress_listSolution.executor": "Run",
+    "JUnit.StringCompressionTest.compress_returnChars.executor": "Run",
+    "JUnit.StringCompressionTest.compress_solution.executor": "Run",
     "JUnit.ThreeSumTest.three_sum.executor": "Run",
     "JUnit.TreeNodeTest.can_create_a_bst.executor": "Run",
     "JUnit.ValidSudokuTest.test_non_valid_sudoku.executor": "Run",
@@ -184,11 +164,12 @@
       <recent name="BBLeetCode" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="String" />
       <recent name="" />
       <recent name="Amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddTwoNumbersTest.can_add_two_numbers">
+  <component name="RunManager" selected="JUnit.StringCompressionTest.compress_returnChars">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,30 +315,6 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListOperationsTest.get_linkedList_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
-      <option name="METHOD_NAME" value="get_linkedList_values" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
-      <option name="METHOD_NAME" value="remove_Nth_node_from_the_end_of_linkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -370,11 +327,53 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCompressionTest.compress_listSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListOperationsTest" />
-      <option name="METHOD_NAME" value="return_Nth_node_from_the_end_of_linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="String" />
+      <option name="MAIN_CLASS_NAME" value="String.StringCompressionTest" />
+      <option name="METHOD_NAME" value="compress_listSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressionTest.compress_returnChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="String" />
+      <option name="MAIN_CLASS_NAME" value="String.StringCompressionTest" />
+      <option name="METHOD_NAME" value="compress_returnChars" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressionTest.compress_solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="String" />
+      <option name="MAIN_CLASS_NAME" value="String.StringCompressionTest" />
+      <option name="METHOD_NAME" value="compress_solution" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -401,18 +400,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AddTwoNumbersTest.can_add_two_numbers" />
-      <item itemvalue="JUnit.LinkedListOperationsTest.get_linkedList_values" />
-      <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList" />
       <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2" />
-      <item itemvalue="JUnit.LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList" />
+      <item itemvalue="JUnit.StringCompressionTest.compress_listSolution" />
+      <item itemvalue="JUnit.StringCompressionTest.compress_returnChars" />
+      <item itemvalue="JUnit.StringCompressionTest.compress_solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCompressionTest.compress_returnChars" />
+        <item itemvalue="JUnit.StringCompressionTest.compress_listSolution" />
+        <item itemvalue="JUnit.StringCompressionTest.compress_solution" />
         <item itemvalue="JUnit.AddTwoNumbersTest.can_add_two_numbers" />
         <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList_2" />
-        <item itemvalue="JUnit.LinkedListOperationsTest.remove_Nth_node_from_the_end_of_linkedList" />
-        <item itemvalue="JUnit.LinkedListOperationsTest.return_Nth_node_from_the_end_of_linkedList" />
-        <item itemvalue="JUnit.LinkedListOperationsTest.get_linkedList_values" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +537,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738855084770</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Rearrange String exercises">
+      <option name="closed" value="true" />
+      <created>1738921651829</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738921651829</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add LinkedListOperations exercises">
+      <option name="closed" value="true" />
+      <created>1738921669517</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738921669517</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Move ValidSudoku to src package">
+      <option name="closed" value="true" />
+      <created>1738921685355</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738921685355</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +593,10 @@
     <MESSAGE value="Add KTopFrequentElements" />
     <MESSAGE value="Add KeyValueStore and ProductOfArray" />
     <MESSAGE value="Remove node from LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove node from LinkedList" />
+    <MESSAGE value="Rearrange String exercises" />
+    <MESSAGE value="Add LinkedListOperations exercises" />
+    <MESSAGE value="Move ValidSudoku to src package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move ValidSudoku to src package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
